@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100;1,200;1,400&display=swap');
+
+header {
+    position: absolute;
+    font-family: "Poppins", Poppins;
+    margin: 0;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Poppins;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.site-header {
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-identity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    
+}
+.site-call {
+    margin: 15px;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: x-large;
+}
+a:hover {
+    color: #EB6440;
+    font-style: italic;
+}
+
+.site-main {
+    display: flex;  
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30vh;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.profile-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.profile-text h1, h5, p {
+    margin: 5px;
+}
+
+
+
+@media (max-width: 500px) {
+    .site-profile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.profile-img {
+    margin-left: 20px;
+}
+
+@media (max-width: 500px) {
+    .profile-img {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+.site-Article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+    margin-top: 20vh;
+}
+
+.site-Article img {
+    width: 400px;
+}
+
+@media (max-width: 400px) {
+    .site-Article img {
+        width: 300px;
+    }
+}
+
+.school {
+    margin: 20px;
+}
+
+.school img, p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.school h1 {
+    margin: 20px;
+}
+
+.hometown {
+    margin: 20px;
+}
+
+.hometown img>p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.hometown h1 {
+    margin: 20px;
+}
+
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: -10%;
+    width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+} 
+
+.media-social {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.media-social a {
+    margin: 10px;
+}
+
+.site-end {
+    font-style: italic;
+    font-weight: 200;
+}
